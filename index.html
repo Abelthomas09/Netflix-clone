@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Netflix Clone</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <!-- fonts links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <!-- fonts links -->
+  <!-- favicon -->
+  <link rel="icon" type="image/png" href="./assets/netflix.png">
+</head>
+
+<body>
+  <!-- nav -->
+  <header class="navbar">
+    <div id="nav" class="nav">
+      <img class="nav__logo" src="images/netflix-logo.png" alt="" />
+      <img class="nav__avatar" src="images/netflix-avatar.png" alt="" />
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">TV Shows</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">New & Popular</a></li>
+        <li><a href="#">My List</a></li>
+        <li><a href="#">Browse by Language</a></li>
+
+      </ul>
+    </nav>
+    <div class="icons">
+      <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+      <!-- <a href="#" class="bell-icon"><img src="https://static-00.iconduck.com/assets.00/search-icon-256x256-v6gfhlc1.png" alt="Notifications"></a> -->
+      <li><a href="#">Children</a></li>
+      <i class="fa-regular fa-bell" style="color: #ffffff;"></i>
+      <!-- <a href="#" class="bell-icon"><img src="" alt="Notifications"></a> -->
+      <img class="nav__avatar" src="images/netflix-avatar.png" alt="" />
+      <i class="fa-solid fa-angle-down" style="color: #ffffff;"></i>
+    </div>
+  </header>
+
+  <!-- header -->
+  <header class="banner">
+    <video autoplay loop muted plays-inline class="back-video">
+      <source src="./assets/Our Planet _ Official Trailer [HD] _ Netflix.mp4">
+    </video>
+    <div class="banner__contents">
+      <h1 class="banner__title">Our Planet</h1>
+      <div class="banner__buttons">
+        <button class="banner__button">Play</button>
+        <button class="banner__button">My List</button>
+      </div>
+      <h1 class="banner__description">
+        Experience our planet's natural beauty and examine how climate change impacts all living creatures in this
+        ambitious documentary of spectacular scope.
+      </h1>
+    </div>
+    <div class="banner--fadeBottom"></div>
+  </header>
+  <br>
+  <!-- Netflix Originals -->
+  <div class="row">
+    <h2>NETFLIX ORIGINALS</h2>
+    <div class="row__posters">
+      <img class="row__poster row__posterLarge" src="./assets/wednsday.jpg" alt="" />
+
+      <img class="row__poster row__posterLarge" src="./assets/strangerthings.jpg" alt="" />
+
+      <img class="row__poster row__posterLarge" src="./assets/dahmer.jpg" alt="" />
+
+      <img class="row__poster row__posterLarge" src="./assets/bridgerton.jpg" alt="" />
+
+      <img class="row__poster row__posterLarge" src="./assets/queensgabit.jpg" alt="" />
+
+      <img class="row__poster row__posterLarge" src="./assets/blackmirror.jpg" alt="" />
+
+      <img class="row__poster row__posterLarge" src="./assets/lifeonourplanet.jpg" alt="" />
+
+      <img class="row__poster row__posterLarge" src="./assets/bojackhorseman.jpg" alt="" />
+
+      <img class="row__poster row__posterLarge" src="images/large-movie9.jpg" alt="" />
+
+      <img class="row__poster row__posterLarge" src="images/large-movie10.jpg" alt="" />
+    </div>
+  </div>
+
+  <!-- Trending Now -->
+  <div class="row">
+    <h2>Trending Now</h2>
+    <div class="row__posters">
+      <img class="row__poster" src="images/t1.jpg" alt="" />
+
+      <img class="row__poster" src="images/t2.jpg" alt="" />
+
+      <img class="row__poster" src="images/t3.jpg" alt="" />
+
+      <img class="row__poster" src="images/t4.jpg" alt="" />
+
+      <img class="row__poster" src="images/t5.jpg" alt="" />
+
+      <img class="row__poster" src="images/t6.jpg" alt="" />
+
+      <img class="row__poster" src="images/t7.jpg" alt="" />
+
+      <img class="row__poster" src="images/t8.jpg" alt="" />
+    </div>
+  </div>
+
+  <!-- top 10 -->
+  <section class="top-10-section">
+    <h2>Top 10 Movies in Your Country Today</h2>
+    <div class="top-10-slider">
+      <div class="top-10-item">
+        <div class="rank">1</div>
+        <img class="top-poster" src="./assets/goat.png" alt="Top 1">
+      </div>
+      <div class="top-10-item">
+        <div class="rank">2</div>
+        <img class="top-poster" src="./assets/lapata.jpg" alt="Top 2">
+      </div>
+      <div class="top-10-item">
+        <div class="rank">3</div>
+        <img class="top-poster" src="./assets/Maharaja.jpg" alt="Top 3">
+      </div>
+      <!-- Add more items up to 10 -->
+      <div class="top-10-item">
+        <div class="rank">4</div>
+        <img class="top-poster" src="./assets/sariponda.jpg" alt="Top 4">
+      </div>
+      <div class="top-10-item">
+        <div class="rank">5</div>
+        <img class="top-poster" src="./assets/ulaj.png" alt="Top 5">
+      </div>
+      <div class="top-10-item">
+        <div class="rank">6</div>
+        <img class="top-poster" src="./assets/ctrl.jpg" alt="Top 6">
+      </div>
+      <div class="top-10-item">
+        <div class="rank">7</div>
+        <img class="top-poster" src="./assets/sector36.jpg" alt="Top 7">
+      </div>
+      <div class="top-10-item">
+        <div class="rank">8</div>
+        <img class="top-poster" src="./images/large-movie7.jpg" alt="Top 8">
+      </div>
+      <div class="top-10-item">
+        <div class="rank">9</div>
+        <img class="top-poster" src="./images/large-movie4.jpg" alt="Top 9">
+      </div>
+      <div class="top-10-item">
+        <div class="rank">10</div>
+        <img class="top-poster" src="./images/large-movie8.jpg" alt="Top 10">
+      </div>
+    </div>
+  </section>
+
+  <!-- Top Rated -->
+  <div class="row">
+    <h2>We Think You'll Love These</h2>
+    <div class="row__posters">
+      <img class="row__poster" src="https://dnm.nflximg.net/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABUlzIblJqDqk_sGGi7vWRyOvDTKEnWg60Z-VpykIUimdhfQww431T4eDnxsrKq2M6ngKky_FdziNMYkj3eHhCeCHkrEYKZCUzarA.jpg?r=21a" alt="" />
+
+      <img class="row__poster" src="https://dnm.nflximg.net/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABY9On_PaZnA0tNIYbnWocwCEru36ytUre02-t6s1yzUbiA-TugOvpWtGtEs47HjWPv17qHeyU9Hw3I38OYATZVhsfj3I1GkyzS09zE9LG5pvKUgIyXpw-QYgGpoWF6pRViBSAA.jpg?r=64d" alt="" />
+
+      <img class="row__poster" src="https://dnm.nflximg.net/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABdS9aMIqNZTzCxEOnF7u4QVmNuc6g8Mxiy8lzA84P8wkh86NMTz2J4IiuusDzeNHYSPI-RBO8sO4ZDr3bI533qr5GNH26nxRLZsO.jpg?r=df4" alt="" />
+
+      <img class="row__poster" src="https://dnm.nflximg.net/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABdOrlugx2Iq01N8VGPJ1Gjf8ZzH3yKLx4ArgbOIrI9lwxmDifTu4OKXE-Ru327-J0kY3fY7XeSTTY9Cju8UKCgI_Dxbaruxs0pI8.jpg?r=b68" alt="" />
+
+      <img class="row__poster" src="https://dnm.nflximg.net/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABYifNm7pbgwhD4e_PRPYXd8c29DdAht_bOM3ECRT4T66JWTM79PhmKoklSG8nf1-1skO1zr1vrtTK1NuIY_-PIYwIlLoTxGDdMiE.jpg?r=db5" alt="" />
+
+      <img class="row__poster" src="https://dnm.nflximg.net/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABbKTqjLXESMvR-qVre047Su5jPL3witos0FOYJNfq5jaq3xnzzjXaAucW0P-DUz25TcEtk0dTKazcJvgKMtZjgQUSwFw3F05lEi3vp0XJLkRJrEfz0lGoUYlgmfVmOOo_HXZlA.jpg?r=bb6" alt="" />
+
+      <img class="row__poster" src="https://dnm.nflximg.net/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABYWLa0M17uoeA6Mz-sXzuHsPaa83Zp7E3LcMzAxZUhk85o-yKBDYpYg7d9w_UoCM2LflStBn7RA_cFpQsfTxNtWGR4NSjGH6gMlB.jpg?r=a85" alt="" />
+
+      <img class="row__poster" src="https://dnm.nflximg.net/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABRARwv6QF9MMnTaFrG4XK_bLH13YuQd6wqbVm-m7MVVd-KEhGJzLgLlvkU3TGr9WvAGWwyJ9sBeJ6ul9uyibR3Q4x3ndhLj3P52w.jpg?r=a71" alt="" />
+
+      <img class="row__poster" src="https://dnm.nflximg.net/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABUIhZ-_3S7bZwEdjtFVx8Uv5CM21J4wtpLou_VF04fLcjdURm_M0Pxux8iJoO9MTbxJs2E9uEKTK1iqaFxsve1AqccKtludHH96u.jpg?r=545" alt="" />
+
+    </div>
+  </div>
+
+  <!-- Action Movies -->
+  <div class="row">
+    <h2>Top Anime List's</h2>
+    <div class="row__posters">
+      <img class="row__poster" src="https://occ-0-2164-64.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABcYAC2RVuaqLZG1mYV3NlqyP8dZi1PKVnckObApwhG8xMbfRv8bSNMCX4l67YoUxB6_GXEa_ODxNOIyy2GHVueEz-oj_E6YFRgfFPJ_dnQTt1ZsYAnzkQvaB328EqZNxXwmtg4MtHsvVdrMNbSNDIlGx2dYg-MjCVmxQLO0GiFN0y2sAj3kNhQ5zsJBUFnmgXpnsWZKW21bQuRwbFfu5-xKx2FAapbznn0wLhJbL6GoiDi7LMOHxgN611PWkeLcgjWg-p066Yz2xTVEAo3D1zcKMEKgIsR1Pp_wRsn1iMaxIb7t9UMdXFKfb7nRMZTdYIEy8u1PLUF7Dn0ycL5EuTJk.jpg?r=cc1" alt="" />
+
+      <img class="row__poster" src="https://occ-0-2164-64.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABWbuHEQw_D78gxsG7kegK8SLIRMuKFb73IJamkfeIYg_6Rf5SDZS_YJM9nW9nty0Eer9h-Xzzl2dhT-NQb6UoCuFjBPniCsE0lA1dak0ohiMb9RtrWlo2RZvkTy1LKWkYXJT-czAKh1WDw3W0pgr6V8LVYoJX-rLRAF5AGrm5R9WRnPM06sobhosfvbGInrZM8JBgz0kqnlmrZkqU3GO8OhRapikqvoCnpnKcGDonXnLdWV6YOHWrZhdr3CPYx7qL4EdoyHFZNyVp_1slTg58-bSi7SMgOQ27Df7eOor86OBoUtqb7Ly3C67DW9QUj4KDZ6ZYlchbeiWvgpqqNTOCOQ.jpg?r=ad9" alt="" />
+
+      <img class="row__poster" src="https://occ-0-2164-64.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABeYOwt43Qbc_MdUj7_ijb7rWI4t9INWI8Gzlh36Bgd3jlQiNWT3lt2cxKmXfysTMgRfHSbjLbt62U0s9I_W8Lbu-JFZXuG6N0dE.jpg?r=434" alt="" />
+
+      <img class="row__poster" src="https://occ-0-2164-64.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABTx7VTJlCzS0jw8GTnaZgIs4WDuqS2-bEkgFZ1x4phEEyrGMSRrLqfsJarQjxwCB3yFyzv1HTbXb1RWWqk7VaeF_nR_m0-XAI5M.jpg?r=804" alt="" />
+
+      <img class="row__poster" src="https://occ-0-2164-64.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABdqx9Px_o5W0bOhpFSra3mCVyfbhzJVR-nwlZHfsj-4y-eU6C66JSbn0u3RbnH0DZhwjNy0xJwCTxCFlk8CW1Mz9TjS68r_90-o.jpg?r=729" alt="" />
+
+      <img class="row__poster" src="https://occ-0-2164-64.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABUkvGL3c6gxrnGFmIZbtgtHRWVhiBFGtkZz_-zj9QGOJqxz-FBXxz4vHWqw2Soqdt_3mtOWVzh3pOhc26KIn8LX3WWoGqmZKgII.jpg?r=22d" alt="" />
+
+      <img class="row__poster" src="https://occ-0-2164-64.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABYCUnKbHq_vsVpHszs-2nyUsiK0-cMB95AvBH8nvjhlWgqUgnzs-rlguVoQHLNjj6SbSjmryxhPpGXE_022Ck100-aUCSYXe4yIIyIHWkqGHBFw854nc5X8ya5Ctcq3OsAjn.jpg?r=f80" alt="" />
+
+      <img class="row__poster" src="https://occ-0-2164-64.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABRhybUqTpg08T8TnfSlW1TPvVx4rMoeyARJusNHmFijC4KWeaoSl9QSkEFSlLFXCZC4pITSugdJhfWa1jkM8Ina1EMepcEIntBvhg4f1kvs3f51AEJbfEFSx6B718Jng8r3j.jpg?r=e0f" alt="" />
+    </div>
+  </div>
+
+  <!-- Comedy Movies -->
+  <div class="row">
+    <h2>Action & Adventure Movies</h2>
+    <div class="row__posters">
+      <img class="row__poster" src="images/at1.jpg" alt="" />
+
+      <img class="row__poster" src="images/at2.jpg" alt="" />
+
+      <img class="row__poster" src="images/at3.jpg" alt="" />
+
+      <img class="row__poster" src="images/at4.jpg" alt="" />
+
+      <img class="row__poster" src="images/at5.jpg" alt="" />
+
+      <img class="row__poster" src="images/at6.jpg" alt="" />
+
+      <img class="row__poster" src="images/at7.jpg" alt="" />
+
+      <img class="row__poster" src="images/at8.jpg" alt="" />
+    </div>
+  </div>
+
+  <!-- Horror Movies -->
+  <div class="row">
+    <h2>Horror Movies</h2>
+    <div class="row__posters">
+      <img class="row__poster" src="images/ho1.jpg" alt="" />
+
+      <img class="row__poster" src="images/ho2.webp" alt="" />
+
+      <img class="row__poster" src="images/ho3.jpg" alt="" />
+
+      <img class="row__poster" src="images/ho4.jpg" alt="" />
+
+      <img class="row__poster" src="images/ho5.jpg" alt="" />
+
+      <img class="row__poster" src="images/ho6.jpg" alt="" />
+
+      <img class="row__poster" src="images/ho7.jpg" alt="" />
+
+      <img class="row__poster" src="images/ho8.jpg" alt="" />
+    </div>
+  </div>
+
+  <!-- Romance Movies -->
+  <div class="row">
+    <h2>Only on Netflix</h2>
+    <div class="row__posters">
+      <img class="row__poster" src="images/net1.jpg" alt="" />
+
+      <img class="row__poster" src="images/net2.webp" alt="" />
+
+      <img class="row__poster" src="images/net3.jpg" alt="" />
+
+      <img class="row__poster" src="images/net4.webp" alt="" />
+
+      <img class="row__poster" src="images/net5.jpg" alt="" />
+
+      <img class="row__poster" src="images/net6.jpg" alt="" />
+
+      <img class="row__poster" src="images/net7.avif" alt="" />
+
+      <img class="row__poster" src="images/net8.jpg" alt="" />
+    </div>
+  </div>
+
+  <!-- Documentaries -->
+  <div class="row">
+    <h2>Award Winning International TV Shows</h2>
+    <div class="row__posters">
+      <img class="row__poster" src="images/aw1.webp" alt="" />
+
+      <img class="row__poster" src="images/aw2.jpg" alt="" />
+
+      <img class="row__poster" src="images/aw3.webp" alt="" />
+
+      <img class="row__poster" src="images/aw4.jpg" alt="" />
+
+      <img class="row__poster" src="images/aw5.jpg" alt="" />
+
+      <img class="row__poster" src="images/aw6.jpg" alt="" />
+
+      <img class="row__poster" src="images/small-movie7.jpg" alt="" />
+
+      <img class="row__poster" src="images/aw8.jpg" alt="" />
+    </div>
+  </div>
+
+  <!-- top 10 -->
+  <section class="top-10-section">
+    <h2>Top 10 Pick's for You</h2>
+    <div class="top-10-slider">
+      <div class="top-10-item">
+        <div class="rank">1</div>
+        <img class="top-poster" src="./images/2top1.jpg" alt="Top 1">
+      </div>
+      <div class="top-10-item">
+        <div class="rank">2</div>
+        <img class="top-poster" src="./images/2top2.jpg" alt="Top 2">
+      </div>
+      <div class="top-10-item">
+        <div class="rank">3</div>
+        <img class="top-poster" src="./images/2top3.jpg" alt="Top 3">
+      </div>
+      <!-- Add more items up to 10 -->
+      <div class="top-10-item">
+        <div class="rank">4</div>
+        <img class="top-poster" src="./images/2top4.jpg" alt="Top 4">
+      </div>
+      <div class="top-10-item">
+        <div class="rank">5</div>
+        <img class="top-poster" src="images/2top5.jpg" alt="Top 5">
+      </div>
+      <div class="top-10-item">
+        <div class="rank">6</div>
+        <img class="top-poster" src="./images/2top6.webp" alt="Top 6">
+      </div>
+      <div class="top-10-item">
+        <div class="rank">7</div>
+        <img class="top-poster" src="./images/2top7.jpg" alt="Top 7">
+      </div>
+      <div class="top-10-item">
+        <div class="rank">8</div>
+        <img class="top-poster" src="./images/2top8.jpg" alt="Top 8">
+      </div>
+      <div class="top-10-item">
+        <div class="rank">9</div>
+        <img class="top-poster" src="./images/2top9.jpg" alt="Top 9">
+      </div>
+      <div class="top-10-item">
+        <div class="rank">10</div>
+        <img class="top-poster" src="./images/2top10.jpg" alt="Top 10">
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-links">
+        <a href="#">Audio and Subtitles</a>
+        <a href="#">Help Center</a>
+        <a href="#">Gift Cards</a>
+        <a href="#">Media Center</a>
+        <a href="#">Investor Relations</a>
+        <a href="#">Jobs</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy</a>
+        <a href="#">Legal Notices</a>
+        <a href="#">Corporate Information</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="footer-social">
+        <a href="#"><i class="fab fa-facebook-square"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+      <div class="footer-copyright">
+        <p>&copy; 2024 Your Netflix Clone. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY >= 100) {
+        nav.classList.add('nav__black');
+      } else {
+        nav.classList.remove('nav__black');
+      }
+    });
+  </script>
+</body>
+
+</html>
